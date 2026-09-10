@@ -11,6 +11,7 @@ dev = [
     "mypy>=1.19.1",
     "pyright>=1.1.409",
     "pytest>=9.0.2",
+    "ruff>=0.12.8",
 ]
 
 [tool.uv.workspace]
@@ -19,13 +20,12 @@ members = [
     "samples/python/agents/adk_expense_reimbursement",
     "samples/python/agents/marvin",
     "samples/python/hosts/cli",
-    "samples/python/hosts/extended_agent_card_cli",
     "samples/python/hosts/multiagent",
+    "samples/python/hosts/mcp_a2a_gateway",
     "samples/python/agents/airbnb_planner_multiagent",
     "samples/python/agents/llama_index_file_chat",
     "samples/python/agents/semantickernel",
     "samples/python/agents/mindsdb",
-    "samples/python/agents/extended_agent_card_adk",
     "samples/python/agents/veo_video_gen",
     "samples/python/agents/dice_agent_grpc",
     "samples/python/agents/dice_agent_rest",

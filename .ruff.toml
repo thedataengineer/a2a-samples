@@ -137,8 +137,8 @@ inline-quotes = "single"
 
 [lint.per-file-ignores]
 "__init__.py" = ["F401", "D", "ANN"]  # Ignore unused imports in __init__.py
-"*_test.py" = ["D", "ANN"]  # Ignore docstring and annotation issues in test files
-"test_*.py" = ["D", "ANN"]  # Ignore docstring and annotation issues in test files
+"*_test.py" = ["D", "ANN", "S101"]  # Ignore docstring, annotation, and assert issues in test files
+"test_*.py" = ["D", "ANN", "S101"]  # Ignore docstring, annotation, and assert issues in test files
 
 [format]
 docstring-code-format = true

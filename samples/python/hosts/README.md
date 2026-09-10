@@ -24,6 +24,9 @@ A web app that visually shows A2A conversations with multiple agents (using the 
   This sample highlights how to use the Agent2Agent (A2A) protocol for multi-agent
   orchestration where at least one of the agents is a Java agent.
 
+* [MCP-to-A2A Dynamic Protocol Gateway](mcp_a2a_gateway)
+  A dynamic protocol gateway host that connects to any Model Context Protocol (MCP) server (via stdio or SSE), introspects its tool catalog, automatically synthesizes an A2A AgentCard with matching AgentSkills, and exposes an A2A JSON-RPC server endpoint that routes tasks directly to MCP tools and streams back structured A2A Artifacts.
+
 ## Disclaimer
 Important: The sample code provided is for demonstration purposes and illustrates the
 mechanics of the Agent-to-Agent (A2A) protocol. When building production applications,
